@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Müzik Oynatma Projesi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+    <div class="mainDiv">
+        <div class="imgDiv">
+            <img src="img/music.png" alt="">
+        </div>
+        <div class="titleDiv">
+            <h2 class="title" id="title">Love</h2>
+            <h3 class="creator" id="creator">Anonymous</h3>
+        </div>
+        <div>
+            <audio src="music/c.mp3"></audio>
+            <div class="progressDiv" id="progressDiv">
+                <div class="progress" id="progress"></div>
+                <div class="timeDiv">
+                    <span id="currentTime">0:00</span>
+                    <span id="totalTime">2:41</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="musicControlDiv">
+            <i class="icon fa-solid fa-backward" id="prev"></i>
+            <i class="icon fa-solid fa-play" id="play"></i>
+            <i class="icon fa-solid fa-forward" id="next"></i>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
